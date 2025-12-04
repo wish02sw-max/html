@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹표준 표만들기 응용</title>
+    <style>
+        h1{text-align: center; color: #222;
+        margin: 50px;
+        }
+
+        hr{
+            width: auto;
+            height: 1px;
+            background-color: #dbdbdb;
+            margin-bottom: 50px;
+        }
+
+        table{
+            width: 1460px;
+            margin: auto;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        th{
+            height: 50px;
+            border-top: 2px solid #414141;
+            border-bottom: 1px solid #d8d8d8;
+        }
+
+        td{
+            height: 90px;
+            border-bottom: 1px solid #d8d8d8;
+            text-align: center;
+        }
+
+        .hhh{text-align: left;}
+        .ppp{
+            font-size: 13px;
+            color: #838393;
+        }
+    </style>
+</head>
+<body>
+    <h1>감사보고서</h1>
+    <hr>
+    <table>
+        <colgroup>
+        <col width="100">
+        <col width="919">
+        <col width="222">
+        <col width="219">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>번호</th>
+            <th>제목</th>
+            <th>다운로드</th>
+            <th>게시일</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>30</td>
+            <td class="hhh">연결분기 2025-3Q-검토보고서</td>
+            <td><img src="/images/스크린샷_4-12-2025_16741_www.posco.co.kr.jpeg" alt="다운로드버튼"></td>
+            <td class="ppp">2025-11-13</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td class="hhh">개별분기 2025-3Q-검토보고서</td>
+            <td><img src="/images/스크린샷_4-12-2025_16741_www.posco.co.kr.jpeg" alt="다운로드버튼"></td>
+            <td class="ppp">2025-11-13</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td class="hhh">연결반기 2025-2Q-검토보고서</td>
+            <td><img src="/images/스크린샷_4-12-2025_16741_www.posco.co.kr.jpeg" alt="다운로드버튼"></td>
+            <td class="ppp">2025-08-14</td>
+        </tr>
+    </tbody>
+    </table>
+    
+</body>
+</html>
