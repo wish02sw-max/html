@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼응용3</title>
+    <style>
+        form{margin-bottom: 32px;}
+        li{list-style: none;}
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>신청과목</legend>
+            <ul>
+                <li>
+                    <p>이 달에 신청할 과목을 선택하세요(1과목만 신청가능)</p>
+                    <label for="h">회화</label><input type="radio" name="subject" checked id="h">
+                    <label for="m">문법</label><input type="radio" name="subject" id="m">
+                    <label for="j">작문</label><input type="radio" name="subject" id="j">
+                </li>
+            </ul>
+            
+        </fieldset>
+        <input type="submit" value="다음으로">
+        <input type="reset" value="초기화">
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>로그인 정보</legend>
+            <ul>
+                <li>
+                    <p>메일로 받고 싶은 뉴스 주제를 선택해 주세요(복수선택가능)</p>
+                    <label for="hh">해외단신</label><input type="checkbox" name="subject" id="hh">
+                    <label for="ff">5분 회화</label><input type="checkbox" name="subject" checked id="ff">
+                    <label for="mm">모닝팝스</label><input type="checkbox" name="subject" id="mm">
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="가입하기">
+        <input type="reset" value="초기화">
+    </form>
+</body>
+</html>

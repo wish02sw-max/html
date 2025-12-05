@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼응용2</title>
+    <style>
+        form{margin-bottom: 32px;}
+        li{list-style: none;}
+        input{
+            width: 177px;
+            height: 21px;
+            padding-left: 8px;
+        }
+        .in{width: 100px;}
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>필수정보</legend>
+            <ul>
+                <li>
+                    <label for="name">이름 :</label>
+                    <input type="text" id="name">
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="다음으로" class="in">
+        <input type="reset" value="초기화" class="in">
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>선택 정보</legend>
+            <ul>
+                <li>
+                    <label for="hbd">생일 :</label>
+                    <input type="date" id="hbd">
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="다음으로" class="in">
+        <input type="reset" value="초기화" class="in">
+    </form>
+</body>
+</html>
