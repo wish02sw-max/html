@@ -9,6 +9,7 @@ body{
     height: 1000px;
     background-color: #87ceea;
     position: relative;
+    margin: auto;
 }
 
 .bigbox div{
