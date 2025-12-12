@@ -1,0 +1,111 @@
+@charset "utf-8";
+body{
+
+}
+*{margin: 0; padding: 0;}
+
+.bigbox{
+    width: 1000px;
+    height: 1000px;
+    background-color: #87ceea;
+    position: relative;
+}
+
+.bigbox div{
+    width: 200px;
+    height: 200px;
+}
+
+.bigbox .child1{
+    background-color: #81007f;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bigbox .child2{
+    background-color: #81007f;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bigbox .child3{
+    background-color: #81007f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.bigbox .child4{
+    background-color: #81007f;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.bigbox .child5{
+    background-color: #ffff00;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.bigbox .child6{
+    background-color: #ffff00;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.bigbox .child7{
+    background-color: #ffff00;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+.bigbox .child8{
+    background-color: #ffff00;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.bigbox .child9{
+    background-color: #fe0000;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.bigbox .child10{
+    background-color: #fe0000;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+}
+
+.bigbox .child11{
+    background-color: #fe0000;
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+
+.bigbox .child12{
+    background-color: #fe0000;
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+}
+
+.bigbox .child13{
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -100px;
+}
