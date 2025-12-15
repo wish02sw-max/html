@@ -18,7 +18,6 @@ ul{
 ul li{
     width: 400px;
     height: 272px;
-    background-color: pink;
     float: left;
     margin-right: 40px;
 }
@@ -32,6 +31,8 @@ ul li a{
     height: 100%;
     /* 블럭요소로 바꾸는 태그 display: block;*/
     display: block;
+    border-radius: 24px;
+    overflow: hidden;
 }
 
 ul li a .imgbox{
