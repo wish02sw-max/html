@@ -1,0 +1,21 @@
+@charset "utf-8";
+body{
+
+}
+*{margin: 0; padding: 0;}
+
+div{
+    width: 800px;
+    height: 600px;
+    border: 5px solid red;
+    margin: 0 auto;
+    text-align: justify;
+    /* 부모요소보다 초과된 데이터를 안보게 할 때(클리핑 마스크) */
+    overflow: hidden;
+    /* 스크롤바 */
+    overflow: scroll;
+    /* 내용에 따라 스크롤바 on/off 자동 생성 */
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
