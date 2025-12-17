@@ -18,7 +18,7 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-    animation: rotate_ani 4s ease-in-out infinite forwards
+    animation: rotate_ani 4s ease-in-out infinite forwards 2s
 }
 
     @keyframes rotate_ani{
@@ -44,7 +44,7 @@ body{
     position: absolute;
     left: 0;
     top: 0;
-    animation: rotate2_ani 4s ease-in-out forwards
+    animation: rotate2_ani 5s ease-in-out forwards 2s
 }
 
     @keyframes rotate2_ani{
