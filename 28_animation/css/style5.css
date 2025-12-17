@@ -1,0 +1,40 @@
+@charset "utf-8";
+body{
+
+}
+*{margin: 0; padding: 0;}
+
+.box{
+    width: 500px;
+    height: 300px;
+    border: 2px solid #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.box .top{
+    position: absolute;
+    left: 50px;
+    top: 151px;
+    animation: top_ani 1s ease-in-out forwards;
+}
+
+@keyframes top_ani{
+    from{top: -100%}
+    to{top: 151px}
+}
+
+.box .bottom{
+    position: absolute;
+    right: 0px;
+    bottom: -300px;
+    animation: bottom_ani 1s ease-in-out forwards 1s;
+}
+
+@keyframes bottom_ani{
+    from{bottom: -100%;}
+    to{bottom: -4%;}
+}
