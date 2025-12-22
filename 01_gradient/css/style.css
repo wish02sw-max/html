@@ -1,0 +1,33 @@
+@charset "utf-8";
+body{
+
+}
+
+*{margin: 0; padding: 0;}
+
+.grd1{
+    width: 400px;
+    height: 200px;
+    background: red;
+    /* gradient 넣을 때 명령 */
+    /* background-image: linear-gradient(방향,색상1,색상2,색상3); */
+    background-image: linear-gradient(to bottom, red, yellow);
+    background-image: linear-gradient(to top, red, yellow);
+    background-image: linear-gradient(to right, red, yellow);
+    background-image: linear-gradient(to left, red, yellow);
+    
+    /* 설정 각도로 그라디언트 넣는 명령 */
+    background-image: linear-gradient(-45deg, red, yellow);
+}
+
+.grd2{
+    width: 600px;
+    height: 300px;
+    background-image: linear-gradient(red, yellow, blue);
+}
+
+.grd3{
+    width: 800px;
+    height: 400px;
+    background-image: radial-gradient(red,yellow,blue);
+}
