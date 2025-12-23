@@ -1,0 +1,51 @@
+@charset "utf-8";
+body{
+
+}
+*{margin: 0; padding: 0;}
+
+div{
+    width: 1140px;
+    height: 285px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    width: 270px;
+    height: 285px;
+}
+
+div .img1{
+    filter: blur(10px);
+}
+
+div .img1:hover{
+    filter: blur(0px);
+}
+
+div .img2{
+    filter: opacity(50%);
+}
+
+div .img2:hover{
+    filter: opacity(100%);
+}
+
+div .img3{
+    filter: grayscale(100%);
+}
+
+div .img3:hover{
+    filter: grayscale(0%);
+}
+
+div .img4{
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+div .img4:hover{
+    filter: sepia(50%) drop-shadow(10px 10px 10px gray);
+}
+
