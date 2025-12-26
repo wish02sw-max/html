@@ -3,34 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>응용2</title>
-    <style>
-        body{background-color: #90ee90;}
-        h3{text-align: right;}
-        .p1{text-align: left;}
-        .p2{text-align: center;}
-        .p3{text-align: right;}
-    </style>
+    <title>문자 데이터를 숫자 데이터로 변환</title>
 </head>
 <body>
-    <h2>그렇게 사랑합니다.</h2>
-    <h3>-한용운-</h3>
-    <p class="p1">
-        사랑한다는 사람 앞에서는 <br>
-        사랑 한다는 말을 안합니다. <br>
-        안하는 것이 아니라 <br>
-        못하는 것이 사랑의 진실입니다.
-    </p>
-    <p class="p2">
-        잊어버려야 하겠다는 말은 <br>
-        잊을 수 없다는 말입니다. <br>
-        정말 잊고 싶을 때는 말이 없습니다.
-    </p>
-    <p class="p3">
-        헤어질 때 돌아보지 않는 것은 <br>
-        너무 헤어지기 싫기 때문입니다. <br>
-        그것은 헤어지는 것이 아니라 <br>
-        같이 있다는 말입니다.
-    </p>
+    <script>
+        let num = prompt("번호를 입력해주세요.")
+        let name = prompt("이름을 입력해주세요.")
+        let ko = prompt("국어점수를 입력해주세요.")
+        let en = prompt("영어점수를 입력해주세요.")
+        let me = prompt("수학점수를 입력해주세요.")
+
+        let total = Number(ko) + Number(en) + Number(me)
+        let pass = Number(total) / 3
+
+        alert("번호:" + num + "번" + "\n" + "이름:" + name + "님" + "\n" + "국어점수:" + ko + "점" + "\n" + "영어점수:" + en + "점" + "\n" + "수학점수:" + me + "점" + "\n" + "총점:" + total + "점" + "\n" + "평균:" + pass + "점" + "\n")
+    </script>
 </body>
 </html>
